@@ -16,7 +16,7 @@ import { PieComponent } from './shard/widget/pie/pie.component';
 @NgModule({
   declarations: [
     AppComponent,
-    PieComponent,
+    
     
    
   

@@ -10,6 +10,7 @@ import { FlexLayoutModule  } from '@angular/flex-layout';
 import { AreaComponent } from '../widget/area/area.component';
 import { HighchartsChartModule } from 'highcharts-angular';
 import { CardComponent } from '../widget/card/card.component';
+import { PieComponent } from '../widget/pie/pie.component';
 
 
 @NgModule({
@@ -18,7 +19,8 @@ import { CardComponent } from '../widget/card/card.component';
     HeaderComponent,
     SidebarComponent,
     AreaComponent,
-    CardComponent
+    CardComponent,
+    PieComponent
 
 
   ],
@@ -41,8 +43,8 @@ import { CardComponent } from '../widget/card/card.component';
     FooterComponent,
     SidebarComponent,
     AreaComponent,
-    CardComponent
-
+    CardComponent,
+    PieComponent
   ]
 })
 export class ShardModule { }
