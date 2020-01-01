@@ -9,6 +9,7 @@ import { RouterModule } from '@angular/router';
 import { FlexLayoutModule  } from '@angular/flex-layout';
 import { AreaComponent } from '../widget/area/area.component';
 import { HighchartsChartModule } from 'highcharts-angular';
+import { CardComponent } from '../widget/card/card.component';
 
 
 @NgModule({
@@ -17,6 +18,7 @@ import { HighchartsChartModule } from 'highcharts-angular';
     HeaderComponent,
     SidebarComponent,
     AreaComponent,
+    CardComponent
 
 
   ],
@@ -39,6 +41,7 @@ import { HighchartsChartModule } from 'highcharts-angular';
     FooterComponent,
     SidebarComponent,
     AreaComponent,
+    CardComponent
 
   ]
 })

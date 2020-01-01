@@ -8,12 +8,14 @@ import { MatButtonModule } from '@angular/material';
 import { DefaultModule } from './layouts/default/default.module';
 import { ShardModule } from './shard/shard/shard.module';
 import { AreaComponent } from './shard/widget/area/area.component';
+import { CardComponent } from './shard/widget/card/card.component';
 
 
 
 @NgModule({
   declarations: [
     AppComponent,
+    
    
   
   
