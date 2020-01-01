@@ -1,5 +1,5 @@
 <div>
-  <app-area></app-area>
+  <app-area [data]="bigChart"></app-area>
 </div>
 
 <br>
@@ -35,6 +35,7 @@
 
 <div fxLayout="row" fxLayoutAlign="space-between center" fxLayoutGap="20px">
     <div fxFlex="60">table</div>
+    
     <div fxFlex="40">
         <app-pie [data]="pieChart"></app-pie>
     </div>

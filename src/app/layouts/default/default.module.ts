@@ -7,6 +7,7 @@ import { PostsComponent } from 'src/app/modules/posts/posts.component';
 import { ShardModule } from 'src/app/shard/shard/shard.module';
 import { MatSidenavModule, MatDividerModule, MatCardModule } from '@angular/material';
 import { FlexLayoutModule } from '@angular/flex-layout';
+import { DashboardService } from 'src/app/modules/dashboard.service';
 
 @NgModule({
   declarations: [
@@ -25,6 +26,9 @@ import { FlexLayoutModule } from '@angular/flex-layout';
     MatCardModule
 
     
+  ],
+  providers: [
+    DashboardService
   ]
 })
 export class DefaultModule { }
