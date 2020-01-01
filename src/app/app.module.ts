@@ -7,12 +7,14 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatButtonModule } from '@angular/material';
 import { DefaultModule } from './layouts/default/default.module';
 import { ShardModule } from './shard/shard/shard.module';
+import { AreaComponent } from './shard/widget/area/area.component';
 
 
 
 @NgModule({
   declarations: [
     AppComponent,
+   
   
   
   ],

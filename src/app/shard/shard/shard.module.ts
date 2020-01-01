@@ -7,12 +7,17 @@ import { DefaultModule } from 'src/app/layouts/default/default.module';
 import { MatDividerModule, MatToolbarModule, MatIconModule, MatButtonModule, MatListModule, MatMenuModule } from '@angular/material';
 import { RouterModule } from '@angular/router';
 import { FlexLayoutModule  } from '@angular/flex-layout';
+import { AreaComponent } from '../widget/area/area.component';
+import { HighchartsChartModule } from 'highcharts-angular';
+
 
 @NgModule({
   declarations: [
     FooterComponent,
     HeaderComponent,
-    SidebarComponent
+    SidebarComponent,
+    AreaComponent,
+
 
   ],
   imports: [
@@ -25,13 +30,16 @@ import { FlexLayoutModule  } from '@angular/flex-layout';
     MatMenuModule,
     MatListModule,
     RouterModule,
+    HighchartsChartModule
 
     
   ],
   exports: [
     HeaderComponent,
     FooterComponent,
-    SidebarComponent
+    SidebarComponent,
+    AreaComponent,
+
   ]
 })
 export class ShardModule { }
