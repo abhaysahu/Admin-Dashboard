@@ -3,16 +3,13 @@ import * as Highcharts from 'highcharts';
 import HC_exporting from 'highcharts/modules/exporting';
 
 
-@Component({
-  selector: 'app-card',
-  templateUrl: './card.component.html',
-  styleUrls: ['./card.component.css']
-})
-export class CardComponent implements OnInit {
 
-  @Input() label: string;
-  @Input() total: string;
-  @Input() percentage: string;
+@Component({
+  selector: 'app-pie',
+  templateUrl: './pie.component.html',
+  styleUrls: ['./pie.component.css']
+})
+export class PieComponent implements OnInit {
 
 
   chartOptions: {};
